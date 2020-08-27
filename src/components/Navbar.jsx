@@ -14,11 +14,10 @@ const Navbar = (props) => {
           <NavLink className="nav-link" to="/">Home</NavLink>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+          <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
           <div className="dropdown-menu">
-            <NavLink className="dropdown-item" to="/">Action</NavLink>
-            <NavLink className="dropdown-item" to="/">Action</NavLink>
-            
+            <a className="dropdown-item" href="">Action</a>
+            <a className="dropdown-item" href="">Action</a>
           </div>
         </li>
         <li className="nav-item">
